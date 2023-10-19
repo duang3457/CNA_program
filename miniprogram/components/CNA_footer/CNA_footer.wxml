@@ -1,0 +1,18 @@
+<view class="footer">
+  <view class="row">XX@{{year}}版权所有</view>
+  <view class="row">解释权归CNA所有</view>
+  <view class="row">UNSW_CNA</view>
+
+</view>
+
+<view class="kefu">
+  <button class="btn" open-type="contact">1</button>
+  <image class="pic" src="/images/icon/kefu.png" mode="aspectFit"/>
+  <view class="line"></view>
+</view>
+
+<view class="WXqun">
+  <button class="btn" open-type="contact">1</button>
+  <van-icon class="pic" name="chat-o" color="white" size="80rpx"/>
+  <view class="line"></view>
+</view>

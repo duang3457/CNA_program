@@ -1,0 +1,8 @@
+<view class="out">
+  <view class="box">
+    <navigator url="/pages/goodsEdit/goodsEdit">商品编辑</navigator>
+  </view>
+  <view class="box">
+    <navigator url="/pages/newsEdit/newsEdit">活动编辑</navigator>
+  </view>
+</view>

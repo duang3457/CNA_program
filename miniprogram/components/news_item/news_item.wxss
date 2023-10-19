@@ -1,0 +1,52 @@
+.goodsitem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+}
+
+.goodsitem .pic {
+  width: 220rpx;
+  height: 150rpx;
+}
+
+.goodsitem .pic .img {
+  width: 100%;
+  height: 100%;
+}
+
+.goodsitem .text {
+  width: 440rpx;
+  height: 150rpx;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goodsitem .text .title {
+  line-height: 1.4em;
+  font-size: 32rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.goodsitem .text .info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  color: var(--descColor);
+}
+
+.goodsitem .text .info .block {
+  display: flex;
+  align-items: center;
+}
+
+.goodsitem .text .info .icon {
+  color: red;
+  margin-right: 6rpx;
+}

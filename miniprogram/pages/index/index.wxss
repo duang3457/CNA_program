@@ -1,0 +1,42 @@
+.banner {
+  padding-top: 30rpx;
+}
+
+.banner swiper {
+  height: 400rpx;
+}
+
+.banner swiper swiper-item image {
+  width: 690rpx;
+  height: 400rpx;
+  border-radius: 30rpx;
+}
+
+.about {
+  padding: 50rpx 30rpx 80rpx;
+  transform: translateY(20rpx);
+  background: var(--themeColor);
+  background-size: cover;
+}
+
+.about .pubTitle .title {
+  color: white;
+}
+
+.about .content .row {
+  line-height: 1.6em;
+  text-indent: 2em;
+  font-size: 32rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx dashed #afa7a7;
+  color: white;
+}
+
+.about .content .row:first-child {
+  padding-top: 0;
+}
+
+.about .content .row:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}

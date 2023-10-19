@@ -1,0 +1,66 @@
+<!-- <view>
+	
+
+	<button bindtap="getData">点击获取信息，输出在控制台</button>
+	
+
+
+	<button bindtap="addData">点击添加数据</button>
+	<view>{{dataObj.tele}}</view>
+
+</view>
+<form bindsubmit="btnSub">
+	<input name="name" type="text" placeholder="请输入标题"/>
+	<input name="tele" type="text" placeholder="请输入作者"/>
+	<textarea name="email" placeholder="请输入内容"></textarea>
+	<button type="primary" form-type="submit">提交</button>
+	<button form-type="reset">重置</button>
+</form> -->
+
+
+<CNA_header></CNA_header>
+
+<view class="banner">
+  <swiper 
+  previous-margin="30rpx"
+  circular
+  autoplay
+  interval="3000"
+  indicator-dots
+  indicator-color="rgba(255,255,255,0.5)"
+  indicator-active-color="#fff">
+    <swiper-item>
+      <image src="/images/banner/banner2.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner/banner2.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner/banner2.jpg" mode=""/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- <view class="scollNav">
+  <scroll-view>
+    <navigator url="" class="item">
+      <view class="pic">
+        <image src="/images/" mode=""/>
+      </view>
+    </navigator>
+  </scroll-view>
+</view> -->
+
+<view class="about">
+  <view class="pubTitle">
+    <view class="title">CNA简介</view>
+  </view>
+
+  <view class="content">
+    <view class="row">第一段</view>
+    <view class="row">第二段</view>
+    <view class="row">。。。</view>
+  </view>
+</view>
+
+<CNA_footer></CNA_footer>

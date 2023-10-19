@@ -1,0 +1,4 @@
+<view class="out">这里是这个人信息页</view>
+<view>包括订单管理</view>
+<view>包括账号管理</view>
+<button bind:tap="clickBtn">管理员登录</button>

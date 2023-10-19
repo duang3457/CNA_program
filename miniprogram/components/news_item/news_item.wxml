@@ -1,0 +1,24 @@
+<view class="goodsitem">
+  <view class="pic">
+    <image class="img" src="cloud://cloud1-7glnxfyw159bbf8b.636c-cloud1-7glnxfyw159bbf8b-1321340142/static/images/baiBianGuai.jpg" mode="aspectFill"/>
+  </view>
+  <view class="text">
+    <view class="title">
+    标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+    </view>
+    <view class="info">
+      <view class="block">
+        <van-icon class="icon" name="clock-o" size="16"/>
+        <text>10-14</text>
+      </view>
+      <view class="block">
+        <van-icon class="icon" name="eye-o" size="16"/>
+        <text>99</text>
+      </view>
+      <view class="block">
+        <van-icon class="icon" name="user-o" size="16"/>
+        <text>张三</text>
+      </view>
+    </view>
+  </view>
+</view>

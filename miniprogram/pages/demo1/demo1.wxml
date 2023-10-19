@@ -1,0 +1,8 @@
+<button type="default" bindtap="updateData">更新一条记录</button>
+--------
+<button type="warn" bindtap="delData">删除一条记录</button>
+-------
+<!-- 每输入一次便调用bindinput事件一次 -->
+<input type="text" bindinput="myInput" placeholder="请输入"/>
+
+<!-- <image src="cloud://cloud1-7glnxfyw159bbf8b.636c-cloud1-7glnxfyw159bbf8b-1321340142/static/images/piKaQiu.png" mode=""/> -->

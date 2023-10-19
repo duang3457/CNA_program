@@ -1,0 +1,35 @@
+<view class="product" bind:tap="clickPro">
+  <view class="pic">
+    <image class="image" mode="widthFix" src="{{item.picUrl}}"></image>
+  </view>
+  <view class="text">
+    <view class="title">{{item.name}}</view>
+    <view class="info">
+
+      <view class="row">
+        <view class="left"><text space="emsp">描 述：</text></view>
+        <view class="right">{{item.title}}</view>
+      </view>
+
+      <view class="row">
+        <view class="left"><text space="emsp">点击数：</text></view>
+        <view class="right">{{item.clickNum}}</view>
+      </view>
+
+      <view class="row">
+        <view class="left"><text space="emsp">类 型：</text></view>
+        <view class="right">{{item.type}}</view>
+      </view>
+
+      <view class="row">
+        <view class="left">开始时间：</view>
+        <view class="right">{{item.strTime}}</view>
+      </view>
+
+      <view class="row">
+        <view class="left">价 格：</view>
+        <view class="right">{{item.value}}</view>
+      </view> 
+    </view>
+  </view>
+</view>

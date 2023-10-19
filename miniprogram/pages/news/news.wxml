@@ -1,0 +1,10 @@
+<CNA_header></CNA_header>
+
+<view class="box" wx:for="{{3}}" wx:key="index">
+  <news_item></news_item>
+</view>
+
+<view class="loadOut">
+  <van-loading>加载中</van-loading>
+  <view class="noData">没有更多数据了~</view>
+</view>

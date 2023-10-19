@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  height: 380rpx;
+}
+
+.banner .pic {
+  width: 100%;
+  height: 100%;
+}
+
+.content .body {
+  padding: 50rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content .body .box {
+  width: 330rpx;
+  margin-bottom: 30rpx;
+}

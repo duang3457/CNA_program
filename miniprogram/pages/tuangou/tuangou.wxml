@@ -1,0 +1,25 @@
+<CNA_header></CNA_header>
+
+<view class="banner">
+  <image class="pic" src="/images/banner/banner11.jpg" mode="aspectFill"/>
+</view>
+
+<!-- <view class="nav">
+<van-tabs 
+border
+color="#c45454"
+title-active-color="#c45454"
+active="{{ navActive }}"
+>
+<van-tab title="标签 1" wx:for="{{7}}" wx:key="index"></van-tab>
+</van-tabs>
+</view> -->
+
+
+<view class="content">
+  <view class="body">
+    <view class="box" wx:for="{{goodsList}}" wx:key="index">
+      <goods_item item="{{item}}"></goods_item>
+    </view>
+  </view>
+</view>
